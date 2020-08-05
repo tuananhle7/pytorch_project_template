@@ -8,8 +8,6 @@ import run
 
 
 def get_sweep_argss():
-    # models in the paper
-    # single-character model
     for seed in range(3):
         for num_hidden_units_1 in [10, 20]:
             for num_hidden_units_2 in [10, 20]:
